@@ -1,0 +1,179 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - Braintree (3.9.7):
+    - Braintree/API (= 3.9.7)
+    - Braintree/Coinbase (= 3.9.7)
+    - Braintree/Drop-In (= 3.9.7)
+    - Braintree/Payments (= 3.9.7)
+    - Braintree/PayPal (= 3.9.7)
+    - Braintree/UI (= 3.9.7)
+    - Braintree/Venmo (= 3.9.7)
+  - Braintree/API (3.9.7)
+  - Braintree/Coinbase (3.9.7):
+    - Braintree/API
+  - Braintree/Drop-In (3.9.7):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/Payments
+    - Braintree/PayPal
+    - Braintree/UI
+    - Braintree/Venmo
+  - Braintree/Payments (3.9.7):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/PayPal
+    - Braintree/Venmo
+  - Braintree/PayPal (3.9.7):
+    - Braintree/API
+    - Braintree/UI
+  - Braintree/UI (3.9.7):
+    - Braintree/API
+  - Braintree/Venmo (3.9.7):
+    - Braintree/API
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - FBSDKCoreKit (4.10.0):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.0):
+    - FBSDKCoreKit
+  - Lock (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/Core (= 1.22.0)
+    - Lock/UI (= 1.22.0)
+    - Lock/WebView (= 1.22.0)
+  - Lock-Facebook (2.2.1):
+    - CocoaLumberjack (~> 2.0)
+    - FBSDKCoreKit (~> 4.6)
+    - FBSDKLoginKit (~> 4.6)
+    - Lock/Core (~> 1.11)
+  - Lock/Core (1.22.0):
+    - AFNetworking (~> 2.5)
+    - CocoaLumberjack (~> 2.0)
+  - Lock/CoreUI (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/Core
+  - Lock/Email (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/UI
+  - Lock/SMS (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/UI
+  - Lock/TouchID (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/UI
+    - SimpleKeychain (~> 0.2)
+    - TouchIDAuth (~> 0.1)
+  - Lock/UI (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/CoreUI
+  - Lock/WebView (1.22.0):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/CoreUI
+  - LockReactNative (0.0.5):
+    - LockReactNative/Core (= 0.0.5)
+    - LockReactNative/NativeModule (= 0.0.5)
+  - LockReactNative/Core (0.0.5):
+    - Lock (~> 1.21)
+    - Lock/Email
+    - Lock/SMS
+    - Lock/TouchID
+  - LockReactNative/NativeModule (0.0.5):
+    - LockReactNative/Core
+    - React/Core
+  - React (0.21.0):
+    - React/Core (= 0.21.0)
+  - react-native-braintree (0.2.0):
+    - Braintree (~> 3.9)
+    - React
+  - React/Core (0.21.0)
+  - React/RCTActionSheet (0.21.0):
+    - React/Core
+  - React/RCTGeolocation (0.21.0):
+    - React/Core
+  - React/RCTImage (0.21.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.21.0):
+    - React/Core
+  - React/RCTSettings (0.21.0):
+    - React/Core
+  - React/RCTText (0.21.0):
+    - React/Core
+  - React/RCTVibration (0.21.0):
+    - React/Core
+  - React/RCTWebSocket (0.21.0):
+    - React/Core
+  - SimpleKeychain (0.7.0)
+  - TouchIDAuth (0.2.0):
+    - SimpleKeychain (~> 0.3)
+
+DEPENDENCIES:
+  - Lock-Facebook (~> 2.2)
+  - LockReactNative (from `../node_modules/react-native-lock-ios`)
+  - react-native-braintree (from `../node_modules/react-native-braintree`)
+  - React/Core (from `./../node_modules/react-native`)
+  - React/RCTActionSheet (from `./../node_modules/react-native`)
+  - React/RCTGeolocation (from `./../node_modules/react-native`)
+  - React/RCTImage (from `./../node_modules/react-native`)
+  - React/RCTNetwork (from `./../node_modules/react-native`)
+  - React/RCTSettings (from `./../node_modules/react-native`)
+  - React/RCTText (from `./../node_modules/react-native`)
+  - React/RCTVibration (from `./../node_modules/react-native`)
+  - React/RCTWebSocket (from `./../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  LockReactNative:
+    :path: ../node_modules/react-native-lock-ios
+  React:
+    :path: ./../node_modules/react-native
+  react-native-braintree:
+    :path: ../node_modules/react-native-braintree
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Braintree: e26231d5a4b486db87da7efc97051ded67cd4598
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  FBSDKCoreKit: 13bec8373fb3af94d44daf2aa1e0958687897fbd
+  FBSDKLoginKit: d3d4a2e9d31954deb00bfea964167a05ca1ea976
+  Lock: 44dc7465a9aae6f0a6b2eb1c3dfe082855faad5b
+  Lock-Facebook: 09f2397cbc9ae2e1fc654f7e66248da30343e349
+  LockReactNative: 117b5d116792fba7f8b9d04e6b274b4080852c44
+  React: eb52e0f867cb73639c553f766d7e6e895003afeb
+  react-native-braintree: cc452184cc74d9905c6b9cf65b219160d0b8d00a
+  SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
+  TouchIDAuth: 0cf861f58a2cacfc1c12cb02de4850729d943c81
+
+COCOAPODS: 0.39.0

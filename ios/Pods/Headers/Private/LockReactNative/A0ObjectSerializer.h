@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-lock-ios/objc/core/A0ObjectSerializer.h
